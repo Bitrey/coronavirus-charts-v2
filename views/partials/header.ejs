@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="<%= text.DESCRIPTION %>" />
+        <meta
+            name="keywords"
+            content="coronavirus, coronavirus stats, coronavirus data, SARS coronavirus, coronavirus news, coronavirus chart, coronavirus latest news"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/css/style.min.css" />
+        <title><%= text.TITLE %></title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <script type="text/javascript">
+            window._mNHandle = window._mNHandle || {};
+            window._mNHandle.queue = window._mNHandle.queue || [];
+            medianet_versionId = "3121199";
+        </script>
+        <meta property="og:title" content="<%= text.og.title %>" />
+        <meta property="og:description" content="<%= text.og.description %>" />
+        <meta
+            property="og:image"
+            content="https://i.ibb.co/9c7HYr7/og-img.png"
+        />
+        <script
+            src="https://contextual.media.net/dmedianet.js?cid=8CU3JQM6A"
+            async="async"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://platform-api.sharethis.com/js/sharethis.js#property=5e7203e1305d2a00123eb08a&product=sticky-share-buttons&cms=website"
+            async="async"
+        ></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-89463817-2"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-89463817-2");
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/"
+                ><img
+                    src="/img/virus.svg"
+                    alt="Virus image"
+                    style="max-width: 2.5rem"
+                />
+                <%= text.TITLE_HOMEPAGE %></a
+            >
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbar"
+                aria-controls="navbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><%= text.HOME %></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/info"><%= text.INFO %></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <p class="nav-link" style="color: white !important">
+                            <%= text.LANGUAGE %>:
+                            <a href="/set-lang/en" title="English">
+                                <img
+                                    src="/img/flags/gb.png"
+                                    alt="English"
+                                    style="width: 1.2rem"
+                                />
+                            </a>
+                            <a href="/set-lang/it" title="Italiano">
+                                <img
+                                    src="/img/flags/it.png"
+                                    alt="Italiano"
+                                    style="width: 1.2rem"
+                                />
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </body>
+</html>

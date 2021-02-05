@@ -1,0 +1,87 @@
+{
+    "TITLE": "COVID-19 Coronavirus Statistiche con Grafici",
+    "DESCRIPTION": "Uno strumento gratuito per visualizzare le ultime statistiche sul Coronavirus per ogni nazione con grafici",
+    "TITLE_HOMEPAGE": "Statistiche sul COVID-19",
+    "og": {
+        "title": "Statistiche sul Coronavirus con Grafici",
+        "description": "Grafici per vedere i casi del Coronavirus di tutte le nazioni del mondo"
+    },
+    "FILE_NAME": "Coronavirus Chart coronavirus-charts.com",
+    "HOME": "Homepage",
+    "INFO": "Informazioni",
+    "LANGUAGE": "Lingua",
+    "LOADING": "Caricamento...",
+    "COUNTRY": "Nazione",
+    "SELECTED_COUNTRIES": "Nazioni selezionate",
+    "SHOW_STATS": "Mostra Dati",
+    "NO_COUNTRIES": "Nessuna nazione selezionata",
+    "LATEST_STATS": "Grafici Coronavirus - Ultimi Dati",
+    "CONFIRMED": "Casi confermati in",
+    "RECOVERIES": "Guarigioni in",
+    "DEATHS": "Morti in",
+    "RESET": "Reimposta",
+    "CANCEL": "Annulla",
+    "SAVE": "Salva",
+    "PEOPLE": "Persone",
+    "DATE": "Data",
+    "CHART_OPTIONS": "Opzioni grafico",
+    "AXIS_TYPE": "Tipo asse Y",
+    "GRAPH_TYPE": "Tipo grafico",
+    "TEXT_STYLE": "Stile testo",
+    "NORMAL": "Normale",
+    "BOLD": "Grassetto",
+    "LINE": "Linea",
+    "BAR": "Barra",
+    "LINEAR": "Lineare",
+    "LOGARITHMIC": "Logaritmico",
+    "DATASET_BACKGROUND": "Sfondo dati",
+    "CHART_BACKGROUND_COLOR": "Sfondo grafico",
+    "CANT_REQUEST": "impossibile richiedere",
+    "SHARE": "Condividi",
+    "ZOOM_RESET": "Resetta zoom",
+    "SAVE_AS_IMAGE": "Salva come immagine",
+    "ALL_RIGHTS_RESERVED": "Tutti i diritti riservati",
+    "INSTRUCTIONS": "Scrivi il nome della nazione che vuoi vedere (in inglese), poi premi invio o il tasto \"Mostra Dati\".",
+    "ERROR_LETMEKNOW": "Se credi che sia un errore, per favore contattami e fammelo sapere",
+    "info": {
+        "BACK_HOME": "Torna alla homepage",
+        "WEBSITE_INFO": "Informazioni sul sito",
+        "ABOUT_ME": {
+            "title": "Su di me",
+            "line1": "Ciao! Sono Alessandro, su internet Bitrey, un programmatore web full-stack di Modena.",
+            "line2": "Da due anni mi occupo della creazione di siti, dal design al codice, usando le ultime tecnologie e restando orientato sulle richieste attuali del mondo di internet, in primo luogo il mobile design.",
+            "line3": "Se hai bisogno di un sito web, non esitare a contattarmi!",
+            "line4": "(Contatti - Informazioni sullo sviluppatore)."
+        },
+        "CONTACTS": {
+            "title": "Contatti",
+            "line1": "Informazioni sul sito",
+            "line2": "Informazioni sullo sviluppatore"
+        },
+        "DATA_UPDATES": {
+            "title": "Come vengono aggiornati i dati?",
+            "line1": "I dati vengono aggiornati automaticamente ogni ora, tuttavia nuove statistiche vengono inviate solo 3 volte al giorno."
+        },
+        "DATA_SOURCE": {
+            "title": "Ma da dove vengono presi?",
+            "line1": "Vengono presi da Center for Systems Science and Engineering (CSSE) di JHU."
+        },
+        "CREDITS": "Strumenti usati",
+        "PRIVACY_POLICY": {
+            "title": "Informativa sulla privacy",
+            "line1": "Vengono salvati lingua e ultima nazione selezionata nei cookies.",
+            "line2": "Se questi cookies non sono presenti, viene effettuata una geolocalizzazione dell'indirizzo IP.",
+            "line3": "Alcuni strumenti utilizzati potrebbero far uso dei cookies per diversi scopi (a cui non sono responsabile).",
+            "line4": "Per saperne di più si prega di leggere le informative sulla privacy dei rispettivi strumenti."
+        },
+        "TERMS_AND_CONDITIONS": {
+            "title": "Termini e condizioni",
+            "line1": "Questo sito offre un servizio gratuito per la visualizzazione grafica delle statistiche del COVID-19.",
+            "line2": "I dati vengono presi da terze parti e non è garantita la loro correttezza.",
+            "line3": "Non sono responsabile per qualunque danno il sito possa causare.",
+            "line4": "Il sito è di proprietà di Alessandro Amella.",
+            "line5": "È consentito usare le immagini del grafico senza attribuzione (anche a scopo commerciale), a condizione che sia visibile la filigrana dell'indirizzo del sito.",
+            "line6": "I termini e condizioni possono subire cambiamenti senza preavviso."
+        }
+    }
+}
