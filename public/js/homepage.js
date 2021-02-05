@@ -421,14 +421,14 @@ function newChart() {
                 zoom: {
                     pan: {
                         enabled: true,
-                        mode: "xy",
+                        mode: "y",
                         speed: 10,
                         threshold: 10
                     },
                     zoom: {
                         enabled: true,
                         sensitivity: 1,
-                        mode: "xy",
+                        mode: "y",
                         sensitivity: 0.1
                     }
                 }

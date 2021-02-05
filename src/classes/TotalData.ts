@@ -1,9 +1,7 @@
 import axios from "axios";
 import _ from "lodash";
-import AddedData from "./AddedData";
 import CountriesData from "./CountriesData";
 import DayData from "./DayData";
-import GlobalData from "./GlobalData";
 
 export default class TotalData {
     static FETCH_LINK = "https://pomber.github.io/covid19/timeseries.json";
@@ -72,39 +70,7 @@ export default class TotalData {
     }
 
     private _getGlobalData() {
-        // const d: GlobalData = {};
         if (!this.data) throw new Error("No data to use in _getGlobalData!");
-        // for (const country in this.data) {
-        //     if (!(country in d)) d[country] = {} as AddedData;
-
-        //     d[country].confirmed = this.data[country].reduce(
-        //         (acc, c) => acc + c.confirmed,
-        //         0
-        //     );
-        //     d[country].deaths = this.data[country].reduce(
-        //         (acc, c) => acc + c.deaths,
-        //         0
-        //     );
-        //     d[country].recovered = this.data[country].reduce(
-        //         (acc, c) => acc + c.recovered,
-        //         0
-        //     );
-        // }
-
-        // const e: DayData = {
-        //     confirmed: 0,
-        //     deaths: 0,
-        //     recovered: 0,
-        //     date: ""
-        // };
-
-        // for (const country in d) {
-        //     e.confirmed += d[country].confirmed;
-        //     e.deaths += d[country].deaths;
-        //     e.recovered += d[country].recovered;
-        // }
-
-        // return e;
 
         const b: DayData[] = [];
         // Let's get the first country just so we can have an index for all dates
